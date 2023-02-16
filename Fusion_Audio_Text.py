@@ -11,19 +11,12 @@ from torch.utils.data import Dataset, DataLoader
 import torchvision.transforms as transforms
 import torchvision.models as models
 import torchvision.datasets as datasets
-import torch
 from vit_pytorch.vivit import ViT
-from tqdm.notebook import tnrange
 import tqdm
 import PIL
-from pathlib import Path
 import types
 import logging
-import inspect
-import argparse
 import importlib
-import torch
-import torch.nn as nn
 import torch.nn.init as init
 from transformers import BertTokenizer, BertModel
 
